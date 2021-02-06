@@ -22,7 +22,7 @@ Description of a correct user-defined setup (input): (see [main.cpp](main.cpp) f
     - shift: the direction (L, N, R) where the head moves after writing
     - to: the resulting state of the turing machine
 - `Input` is an instance of `tape<Gamma, Gamma... Places>` and it is the initial state of the work tape
-- `Fin` is an instance of `tape<Q, Q... Places>` and it is the set of accepting states
+- `Fin` is an instance of `tape<Q, Q... States>` and it is the set of accepting states
 
 ## How to use the turing machine
 
