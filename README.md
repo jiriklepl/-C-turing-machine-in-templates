@@ -23,6 +23,9 @@ Description of a correct user-defined setup (input): (see [main.cpp](main.cpp) f
     - to: the resulting state of the turing machine
 - `Input` is an instance of `tape<Gamma, Gamma... Places>` and it is the initial state of the work tape
 - `Fin` is an instance of `tape<Q, Q... States>` and it is the set of accepting states
+- `Q0` is the initial state
+
+(the actual names don't have to follow this description, with an exception of the `Blank` value)
 
 ## How to use the turing machine
 
